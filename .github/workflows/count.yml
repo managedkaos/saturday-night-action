@@ -1,0 +1,7 @@
+name: Count
+on: push
+jobs:
+  main:
+    runs-on: unbuntu-latest
+    steps:
+      - uses: managedkaos/saturday-night-action
