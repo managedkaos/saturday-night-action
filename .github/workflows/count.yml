@@ -1,8 +1,0 @@
-name: Count
-on: push
-jobs:
-  main:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: managedkaos/saturday-night-action@main
