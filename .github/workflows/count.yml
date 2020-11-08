@@ -4,4 +4,5 @@ jobs:
   main:
     runs-on: unbuntu-latest
     steps:
-      - uses: managedkaos/saturday-night-action
+      - uses: actions/checkout@v1
+      - uses: .
