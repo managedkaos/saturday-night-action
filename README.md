@@ -23,7 +23,7 @@ echo "This is my custom action! :D"
 name: Saturday Night
 on: push
 jobs:
-  build:
+  main:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
